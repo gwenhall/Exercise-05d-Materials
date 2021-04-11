@@ -1,17 +1,4 @@
-# Exercise-05d-Materials
-Exercise for MSCH-C220, 5 April 2021
 
-A demonstration of this exercise is available at [https://youtu.be/ZNGcbVgqopw](https://youtu.be/ZNGcbVgqopw)
-
-This exercise is an opportunity for you to experiment with PBR Textures in Godot. The exercise is based on [Godot 3 Tutorial: PBR Materials](https://www.youtube.com/watch?v=pM5j8x71HcE). I will be providing some additional information about PBR Textures as part of today's lecture materials.
-
-Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-05d-Materials. *Edit the LICENSE and replace BL-MSCH-C220-S21 with your full name.* Commit your changes.
-
-Clone the repository to a Local Path on your computer.
-
-Open Godot. Import the project.godot file and open the "Material Tester" project.
-
-This exercise will invite you to adjust the materials of several sphere-like objects. Each of the objects is a mesh (called GodotBall) inside a Spatial scene. For each GodotBall, select the Mesh, and in the Inspector, select Material. For Material 0 (currently [empty]), select New Spatial Material, and then adjust the parameters as described below. The textures appear in the FileSystem panel, and can the files can be dragged from that panel to the Texture field in the inspector. 
 
 White Plastic
  * Metallic->Metallic: 0.4
@@ -129,14 +116,6 @@ Toon
    * Parameters->Grow: On
    * Albedo->Color: R: 7, G: 0, B: 0, A: 255
  
-When you have completed the exercise, run it to ensure that everything is working correctly. This exercise also contains an excellent example of a WorldEnvironment (and how to change environments using GDScript).
-
-Quit Godot. In GitHub desktop, add a summary message, commit your changes and push them back to GitHub. If you return to and refresh your GitHub repository page, you should now see your updated files with the time when they were changed.
-
-Now edit the README.md file. When you have finished editing, commit your changes, and then turn in the URL of the main repository page (https://github.com/[username]/Exercise-05d-Materials) on Canvas.
-
-The final state of the file should be as follows (replacing the "Created by" information with your name):
-```
 # Exercise-05d-Materials
 Exercise for MSCH-C220, 5 April 2021
 
@@ -155,5 +134,4 @@ None
 None
 
 ## Created by 
-Jason Francis
-```
+Gwen Hall
